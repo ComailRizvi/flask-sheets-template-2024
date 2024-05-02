@@ -1,12 +1,12 @@
 
-#from app.db import BaseModel
-#
-#class Book(BaseModel):
-#
+# from app.db import BaseModel
+
+# class Book(BaseModel):
+
 #    SHEET_NAME = "books"
-#
+
 #    COLUMNS = ["title", "author", "year"]
-#
+
 #    SEEDS = [
 #        {"title": "To Kill a Mockingbird", "author": "Harper Lee", "year": 1960},
 #        {"title": "1984", "author": "George Orwell", "year": 1949},
@@ -21,10 +21,10 @@
 #        {"title": "Harry Potter and the Philosopher's Stone", "author": "J.K. Rowling", "year": 1997},
 #        {"title": "Harry Potter and the Chamber of Secrets", "author": "J.K. Rowling", "year": 1998},
 #    ]
-#
-#
-#if __name__ == "__main__":
-#
+
+
+# if __name__ == "__main__":
+
 #    books = Book.all()
 #    print("FOUND", len(books), "BOOKS")
 #    if any(books):
@@ -32,4 +32,4 @@
 #            print(book.title, book.author, book.year)
 #    else:
 #        Book.seed()
-#
+
